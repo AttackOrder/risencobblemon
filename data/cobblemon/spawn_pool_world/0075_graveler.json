@@ -45,6 +45,54 @@
                     "regions_unexplored:prismachasm"
                 ]
             }
+        },
+        {
+            "id": "graveler-alolan-3",
+            "pokemon": "graveler alolan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "isThundering": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "graveler-alolan-4",
+            "pokemon": "graveler alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_tropical_island",
+                    "#c:stony_shores",
+                    "wythers:gravelly_beach",
+                    "wythers:tropical_island",
+                    "wythers:warm_stony_shore"
+                ]
+            }
         }
     ]
 }

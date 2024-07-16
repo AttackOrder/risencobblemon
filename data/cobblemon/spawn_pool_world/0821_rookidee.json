@@ -50,24 +50,6 @@
                     "nyctophobia:eroded_haunted_forest"
                 ]
             }
-        },
-        {
-            "id": "rookidee-3",
-            "pokemon": "rookidie",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "6-28",
-            "weight": 4,
-            "condition": {
-                "biomes": [
-                    "betterend:chorus_forest",
-                    "betterend:shadow_forest"
-                ]
-            }
         }
     ]
 }

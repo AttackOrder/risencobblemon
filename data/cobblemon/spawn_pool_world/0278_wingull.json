@@ -30,34 +30,6 @@
                     "#cobblemon:is_freezing"
                 ]
             }
-        },
-        {
-            "id": "wingull",
-            "pokemon": "wingull-2",
-            "presets": [
-                "natural",
-                "treetop"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "2-27",
-            "weight": 9.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "terrestria:volcanic_island"
-                ],
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "#minecraft:jungle_log"
-                ]
-            },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "#minecraft:lava"
-                ]
-            }
         }
     ]
 }

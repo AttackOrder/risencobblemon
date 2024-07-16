@@ -45,6 +45,55 @@
                     "regions_unexplored:prismachasm"
                 ]
             }
+        },
+        {
+            "id": "golem-alolan-3",
+            "pokemon": "golem alolan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "isThundering": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "golem-alolan-4",
+            "pokemon": "golem alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.1,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_tropical_island",
+                    "#c:stony_shores",
+                    "wythers:gravelly_beach",
+                    "wythers:tropical_island",
+                    "wythers:warm_stony_shore"
+                ]
+            }
         }
+
     ]
 }

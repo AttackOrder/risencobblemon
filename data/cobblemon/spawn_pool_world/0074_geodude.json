@@ -47,6 +47,54 @@
                     "terralith:cave/mantle_caves"
                 ]
             }
+        },
+        {
+            "id": "geodude-alolan-3",
+            "pokemon": "geodude alolan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9,
+            "condition": {
+                "canSeeSky": true,
+                "isThundering": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "geodude-alolan-4",
+            "pokemon": "geodude alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 9,
+            "weightMultiplier": {
+                "multiplier": 5,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_tropical_island",
+                    "#c:stony_shores",
+                    "wythers:gravelly_beach",
+                    "wythers:tropical_island",
+                    "wythers:warm_stony_shore"
+                ]
+            }
         }
     ]
 }
